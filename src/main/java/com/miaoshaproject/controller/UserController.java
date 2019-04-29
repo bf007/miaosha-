@@ -59,6 +59,7 @@ public class UserController extends BaseController{
 
         }
 
+
         //用户登陆服务
         UserModel userModel = userService.validateLogin(telphone,this.encodeByMd5(password));
 
